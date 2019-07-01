@@ -20,12 +20,12 @@ class MemoryStore {
     if (maxAge > 0) {
       session.expire = Date.now() + maxAge;
     }
-    this.sessions[key] = JSON.stringify(session);
+    this.sessions[sessionId] = JSON.stringify(session);
   }
 
 
-  destroy(key) {
-    delete this.sessions[key];
+  destroy(sessionId) {
+    delete this.sessions[sessionId];
   }
 }
 
