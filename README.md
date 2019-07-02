@@ -20,9 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/egg-session-memory.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-session-memory
 
-<!--
-Description here.
--->
+A session extension for store session in memory
 
 ## Install
 
