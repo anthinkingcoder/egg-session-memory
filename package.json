@@ -1,6 +1,6 @@
 {
   "name": "egg-session-memory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "eggPlugin": {
     "name": "sessionMemory"
